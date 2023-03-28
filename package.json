@@ -1,0 +1,44 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ankuranand598.github.io/portfolio",
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.6.0",
+    "lightbox2": "^2.11.3",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-scripts": "^3.4.4",
+    "react-typed": "^1.2.0",
+    "typed.js": "^2.0.12"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

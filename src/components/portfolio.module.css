@@ -1,0 +1,8 @@
+.mainD {
+  border-radius: 15px;
+  border: 2px solid red;
+  display: flex !important;
+}
+.card {
+  width: 300px;
+}
